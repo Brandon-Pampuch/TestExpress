@@ -1,0 +1,14 @@
+<% include partials/header %>
+
+<h1>you fell in love with:
+    <%=dog.toUpperCase()%>
+</h1>
+<p>this is from the ejs file</p>
+
+<% if(dog === "rusty"){ %>
+<p>good job great choice</p>
+<% }else{ %>
+<p>bad choice</p>
+<% } %>
+
+<% include partials/footer %>
